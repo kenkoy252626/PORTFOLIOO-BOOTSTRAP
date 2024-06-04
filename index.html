@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMINGO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Resume.css">
+    
+</head>
+
+<body style="background-color: rgb(27, 24, 24 , ); font-size: 20px;" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style="font-weight: bold; font-size: 30px; font-family: cursive;">PORTFOLIO</a>
+        <button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-family: cursive;">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="showDiv('AboutMe')">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showDiv('Education')">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showDiv('Experience')">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showDiv('Projects')">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showDiv('Skills')">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showDiv('TechnicalSkills')">Technical Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showDiv('Contact')">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="AboutMe" class="container py-4">
+        <h1 class="text-center">Future Unknown  </h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <img src="myPhoto-removebg-preview.png" class="rounded-circle img-fluid mx-auto d-block" alt="My Photo" >
+                <p class="text-center mt-4" >I'm STO. DOMINGO, JERALD D., a dedicated Bachelor of Science Information Technology student actively seeking job opportunities. I adapt quickly and possess a strong work ethic, driven by the need to support my college education and assist my parents financially. Integrity, effective communication, and teamwork define my approach to work. I'm excited to apply my skills and knowledge to contribute positively to your team while furthering my professional growth.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Education" class="container py-4" style="display:none;">
+        <h3 class="text-center">EDUCATION</h3>
+        <ul class="list-group" >
+            <li class="list-group-item"><p>2014</p> – SanJose Elementary School</li>
+            <li class="list-group-item"><p>2018</p> – Francsico P. Tolentino National Highschool</li>
+            <li class="list-group-item"><p>2020</p> - City College of Tagaytay</li>
+            <li class="list-group-item"><p>2023</p> - City College of Tagaytay</li>
+        </ul>
+    </div>
+
+    <div id="Experience" class="container py-4" style="display:none;">
+        <h1 class="text-center">Experience</h1>
+        <p class="text-center">IT Support Intern</p>
+        <p class="text-center">[Alt F4 Company], [Universe, Namek]</p>
+        <p class="text-center">[2050]</p>
+    </div>
+
+    <div id="Projects" class="container py-4" style="display:none;">
+        <h1 class="text-center">PROJECTS</h1>
+        <ul class="list-group">
+            <li class="list-group-item"> <a href="www.w3shool.com"> Calculator</a> </li>
+            <li class="list-group-item"><a href="">Simple Kiosk</a></li>
+            <li class="list-group-item"><a href="">Resume</a></li>
+        </ul>
+        <p class="text-center mt-4">Check if you want to see Projects on <a href="https://github.com/kenkoy252626">Github</a></p>
+    </div>
+
+    <div id="Skills" class="container py-4" style="display:none;">
+        <h1 class="text-center">SKILLS</h1>
+        <ul class="list-group">
+            <li class="list-group-item">Motivated and always willing to learn new things</li>
+            <li class="list-group-item">Ability to smile and communicate with energy all day.</li>
+            <li class="list-group-item">Ability to work well with people who will allow me to grow personally and professionally.</li>
+        </ul>
+    </div>
+
+    <div id="TechnicalSkills" class="container py-4" style="display:none;">
+        <h1 class="text-center">TECHNICAL SKILLS</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="text-center">Hardware</h2>
+                <img src="tech-removebg-preview.png" class="img-fluid mx-auto d-block" alt="Hardware Icon">
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Basic</h2>
+                <img src="htmls-removebg-preview.png" class="img-fluid mx-auto d-block" alt="HTML Icon">
+                <img src="css-removebg-preview.png" class="img-fluid mx-auto d-block" alt="CSS Icon">
+                <img src="OIP-removebg-preview.png" class="img-fluid mx-auto d-block" alt="OIP Icon">
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Programming</h2>
+                <img src="C_-removebg-preview.png" class="img-fluid mx-auto d-block" alt="C++ Icon">
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact" class="container py-4" style="display:none;">
+        <h1 class="text-center">CONTACT</h1>
+        <label class="text-center d-block">Phone:
+            <a href="">09617247305</a>
+        </label>
+        <label class="text-center d-block">Email:
+            <a href="">domingojerald209@gmail.com</a>
+        </label>
+        <label class="text-center d-block">Address:
+            <a href="">SanJose, TagaytayCity</a>
+        </label>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="Resume.js"></script>
+
+    <script>
+      
+    </script>
+</body>
+</html>
