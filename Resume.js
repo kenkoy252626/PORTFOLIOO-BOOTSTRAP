@@ -1,6 +1,6 @@
 function showDiv(divId) {
 
-    document.querySelectorAll('.container').forEach(function(el) {
+    document.querySelectorAll('.container-fluid').forEach(function(el) {
         el.style.display = 'none';
     });
 
