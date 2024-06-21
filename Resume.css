@@ -1,12 +1,14 @@
 body {
-    background-color: rgb(32, 31, 31);
+  background-color: #fef6e4;
     font-family: monospace;
- 
+    
 }
 .navigation{
-    background-color: rgb(58, 61, 60);
+    background-color:#f3d2c1;
 }
-
+.nav-link a.items {
+    color:#172c66;
+}
 .title{
     font-size: 50px;
     text-align: center;
@@ -57,12 +59,12 @@ body {
 }
 #Education .item  {
     align-items: center;
-    color: aliceblue;
+    color: rgb(242, 245, 248);
 
 }
 
 #Education .item .list {
-font-size: 35px;
+    font-size: 35px;
     align-items: center;
     background-color: rgb(32, 31, 31);
     border: mediumorchid;
