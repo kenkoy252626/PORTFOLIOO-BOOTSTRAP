@@ -12,7 +12,7 @@ body {
 .title{
     font-size: 50px;
     text-align: center;
-    color:bisque;
+    color:#172c66;
 }
 
 
@@ -26,20 +26,19 @@ body {
 
 .text-left p {
    
-    font-size: 28px;
+    font-size: 25px;
     padding-top: 5%;
-    color: azure;
+    color: rgb(122, 220, 220);
    text-align: justify;
 }
 .text-left h1{
-    color: rgb(156, 224, 224);
+    color: rgb(127, 165, 219);
      text-align: center;
       font-size: 55px;
       padding-top: 5%;
 }
 
 .item_div img {
-    padding-left: 10%;
     width: 85%;
     height: 10%;
     display: flex;
@@ -59,13 +58,22 @@ body {
 }
 #Education .item  {
     align-items: center;
-    color: rgb(242, 245, 248);
+    color:#172c66;
 
 }
 
 #Education .item .list {
     font-size: 35px;
     align-items: center;
-    background-color: rgb(32, 31, 31);
+    background-color: #fef6e4;
     border: mediumorchid;
+}
+
+#Experience p{
+    font-size: 40px;
+}
+
+
+.prog{
+    font-size: 40px;
 }
